@@ -41,11 +41,11 @@ yarn dev
 ```
 - You will see both running like this simultaneously if succesful and should be able to access Coral Studio from your browser.
 
-![Coral Server and Studio Running](Coral-RaiseYourHack-Guide/images/server-studio.png)
+![Coral Server and Studio Running](https://github.com/Coral-Protocol/Coral-RaiseYourHack-Guide/blob/main/images/server-studio.png)
 
 - On Coral Studio, ensure the connection to Coral Server.
 
-![Coral Server and Studio Connection UI](Coral-RaiseYourHack-Guide/images/coral-connection.png)
+![Coral Server and Studio Connection UI](https://github.com/Coral-Protocol/Coral-RaiseYourHack-Guide/blob/main/images/coral-connection.png)
 
 <details>
 
