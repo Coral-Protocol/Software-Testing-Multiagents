@@ -2,6 +2,8 @@
 
 This guide demonstrates a multi-agent software testing system built using Coral Protocol, supporting agents from three different frameworks [LangChain](https://github.com/langchain-ai/langchain), [Camel](https://github.com/camel-ai/camel), and [CrewAI](https://github.com/crewAIInc/crewAI). The system enables automatic understanding of codebases, pull request testing, test coverage analysis, and documentation consistency checking in any compatible GitHub repository.
 
+![multiagent-image][images/Software_Testing_Multiagents.png]
+
 ### Introduction
 
 The system is composed of four specialized agents that work together to streamline GitHub pull request processing. The [Interface Agent](https://github.com/Coral-Protocol/Coral-Interface-Agent), built with LangChain, acts as the central coordinator, accepting user instructions, managing the workflow, and orchestrating the other agents. The [GitClone Agent](https://github.com/Coral-Protocol/Coral-GitClone-Agent), powered by Crew AI, handles cloning the specified GitHub repository and checking out the relevant pull request branch. The [CodeDiffReview Agent](https://github.com/Coral-Protocol/Coral-CodeDiffReview-Agent), utilizing Camel, analyzes the pull request diff, identifies modified functions, maps them to corresponding tests, and locates associated test files. Lastly, the [UnitTestRunner Agent](https://github.com/Coral-Protocol/Coral-UnitTestRunner-Agent), also based on LangChain, executes designated unit tests using pytest and provides structured results, ensuring an efficient and automated review process.
